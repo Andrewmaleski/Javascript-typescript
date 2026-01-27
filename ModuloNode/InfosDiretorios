@@ -1,0 +1,8 @@
+Para procurar algo a partir de uma pasta podemos usar path e dirname ou filename.
+
+Primeiro é necessario colocar no cabeçalho do arquivo o path, const path = require ('path');
+Depois usamos o __dirname para pegar o camingo absoluto a partir de onde você está.
+
+Exemplo: const caminho = path.join(__dirname, 'uploads', 'foto.png');
+
+Isso evita erros de caminho em ambientes diferentes.

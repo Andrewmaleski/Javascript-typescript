@@ -1,0 +1,16 @@
+// Para atualizar uma dependencia do node para uma versão especifica utilizar npm install express -Element,
+// com isso ele busca a versão no packpage e instala. 
+
+//Falamos que o WEBPACK é uma dev dependece, pois quando fizermos um deploy da aplicação no servidor, o servidor utilizara
+//o arquivo de end-point bundle para executar os scripts
+
+//Para mover um dependencia para devDependencies, usamos npm install express --save-dev
+//Para mover de volta para dependences usamos npm install express --save-prod
+//Para atualizar um dependencia para uma versão especifica sem atualizar a minor ou a patch, usamos
+//npm install express@2.1.0 -E
+
+//Patch, para correção de bugs
+//Minor, para novas funcionalidades
+//Major, compatibilidade com toda aplicação
+
+//Para desinstalar pacotes do node, usamos npm uninstall express
